@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Employee Registration Form</h1></center>
+    <hr>
+    <form>
+        <label for="firstname">Firstname:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+        <br><br>
+        <label for="mname">Middlename:</label>
+        <input type="text" id="mname" name="mname" placeholder="Middlename" required>
+        <br><br>
+        <label for="lname">Lastname:</label>
+        <input type="text" id="lname" name="lname" placeholder="Lastname" required>
+        <br><br>
+        <label for="d">Department:</label>
+         <select>
+            <option>Department</option>
+            <option>mangement</option>
+            <option>human resources</option>
+            <option>customer support</option>
+            <option>development</option>
+         </select>
+         <br><br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" id="m" name="gender">
+        <label for="m">Male</label>
+        <br>
+        <input type="radio" id="f" name="gender">
+        <label for="f">Female</label>
+        <br>
+        <input type="radio" id="o" name="gender">
+        <label for="o">other</label>
+        <br><br>
+    <label for="n">Phone:</label>
+    <input type="text" id="n" name="n" placeholder="Country code" value="+91">
+    <input type="tel" id="n" name="n" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required>
+    <br><br>
+    <label>current address:</label>
+    <textarea rows="5" cols="20">enter your address </textarea>
+    <br><br>
+    <label>drop your resume</label>
+    <button>Choose File</button>
+    <br><br>
+    <label><b>Email</b></label>
+    <input type="email" id="email" name="email" placeholder="enter email" required>
+    <br><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" name="psw" placeholder="Enter Password" required>
+    <br><br>
+    <label for="pswr"><b>Re-Type Password</b></label>
+    <input type="password"  name="pswr" placeholder="Retype Password" required>
+    <br><br>
+    <button type="submit">Register</button>
+</form>
+    
+</body>
+</html>
